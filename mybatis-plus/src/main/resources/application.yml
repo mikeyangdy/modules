@@ -1,0 +1,23 @@
+server:
+  port: 9313
+
+spring:
+  application:
+    name: mybatis-plus-test
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root1234
+    url: jdbc:mysql://localhost:3306/mytest?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 5
+      max-active: 10
+      max-wait: 3000
+
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
