@@ -12,13 +12,12 @@
     <artifactId>mybatis-plus</artifactId>
 
     <dependencies>
-
+        <!--  commons my公共依赖  -->
         <dependency>
             <groupId>com.ydy</groupId>
             <artifactId>commons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
         <!-- mybatis plus -->
         <dependency>
             <groupId>com.baomidou</groupId>
