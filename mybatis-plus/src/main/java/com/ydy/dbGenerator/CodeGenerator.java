@@ -1,4 +1,4 @@
-package com.ydy;
+package com.ydy.dbGenerator;
 
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;

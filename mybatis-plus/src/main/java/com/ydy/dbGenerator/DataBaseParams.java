@@ -1,4 +1,4 @@
-package com.ydy;
+package com.ydy.dbGenerator;
 
 
 import lombok.Data;
