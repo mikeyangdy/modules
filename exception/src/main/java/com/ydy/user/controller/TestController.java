@@ -1,4 +1,4 @@
-package com.ydy.modules.user.controller;
+package com.ydy.user.controller;
 
 
 import com.ydy.commons.entity.HttpResult;

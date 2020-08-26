@@ -1,7 +1,7 @@
 package com.ydy.commons.entity;
 
 
-import com.ydy.commons.contant.ResultContant;
+import com.ydy.commons.constant.ResultConstant;
 import lombok.Data;
 
 /*
@@ -25,11 +25,11 @@ public class HttpResult<T>{
     }
 
     public static HttpResult error500(String msg){
-        return new HttpResult(ResultContant.ERROR_500,msg);
+        return new HttpResult(ResultConstant.ERROR_500,msg);
     }
 
     public static HttpResult error404(String msg){
-        return new HttpResult(ResultContant.ERROR_404,msg);
+        return new HttpResult(ResultConstant.ERROR_404,msg);
     }
 
 }

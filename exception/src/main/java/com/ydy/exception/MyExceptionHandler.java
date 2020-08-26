@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  *@Date 2020/7/22
  *@Description 自定义handler 捕获 controller异常
  */
+
 @Slf4j
 @RestControllerAdvice
 public class MyExceptionHandler {

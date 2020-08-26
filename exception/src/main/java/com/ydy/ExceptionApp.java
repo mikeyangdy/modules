@@ -1,6 +1,6 @@
 package com.ydy;
 
-import com.ydy.modules.user.entity.Stu;
+import com.ydy.user.entity.Stu;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.ydy.modules.user.entity;
+package com.ydy.user.entity;
 
 import lombok.Data;
 
