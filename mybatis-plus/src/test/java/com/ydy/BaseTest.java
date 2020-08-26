@@ -8,5 +8,4 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(classes = MyBatisPlusApp.class)
 public class BaseTest {
 
-
 }

@@ -1,6 +1,6 @@
 package com.ydy.exception;
 
-import com.ydy.commons.entity.Result;
+import com.ydy.commons.entity.HttpResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -20,15 +20,15 @@ public class MyExceptionHandler {
      * @return
      */
     @ExceptionHandler(MyException.class)
-    public Result my(MyException e){
+    public HttpResult my(MyException e){
         log.error(e.getMessage(),e);
-        return Result.error500("my exception");
+        return HttpResult.error500("my exception");
     }
 
 
 //    @ExceptionHandler(DuplicateKeyException.class)
-//    public Result duplicateKey(DuplicateKeyException e){
+//    public HttpResult duplicateKey(DuplicateKeyException e){
 //        log.error(e.getMessage(),e);
-//        return Result.error500(e.getMessage());
+//        return HttpResult.error500(e.getMessage());
 //    }
 }

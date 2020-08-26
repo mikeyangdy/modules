@@ -1,13 +1,14 @@
 package com.ydy.commons.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Data
 public class UserInfo {
 
-    @TableId(value = "id",type = IdType.ASSIGN_UUID)
     private String id ;
 
     private String username;

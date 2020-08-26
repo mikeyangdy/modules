@@ -54,9 +54,15 @@ public class CodeGenerator {
 
         //数据库配置参数
         DataBaseParams dataBaseParams = new DataBaseParams();
+
+//        dataBaseParams.setDbName("mytest");
+//        dataBaseParams.setHost("localhost");
+//        dataBaseParams.setPassword("root1234");
+
         dataBaseParams.setDbName("sms_order");
         dataBaseParams.setHost("10.128.108.179");
         dataBaseParams.setPassword("123456");
+
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();

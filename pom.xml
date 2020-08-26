@@ -18,6 +18,7 @@
         <module>commons</module>
         <module>enum</module>
         <module>my-test</module>
+        <module>TaskAsync</module>
     </modules>
 
     <parent>
