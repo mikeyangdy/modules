@@ -12,4 +12,11 @@
     <artifactId>enum</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.ydy</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
