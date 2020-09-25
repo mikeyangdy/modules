@@ -15,5 +15,8 @@ public class Swapper2App {
 
         System.out.println("http://localhost:"+port+"/doc.html");
         System.out.println("http://localhost:"+port+"/swagger-ui.html");
+
+
+
     }
 }

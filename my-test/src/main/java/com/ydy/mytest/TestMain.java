@@ -1,18 +1,25 @@
 package com.ydy.mytest;
 
-
-import com.ydy.commons.utils.MyUtil;
+import org.apache.tomcat.util.buf.StringUtils;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class TestMain {
 
     public static void main(String[] args) {
 
-        System.out.println(MyUtil.getUUID());
-        System.out.println(MyUtil.getUUID().length());
+        String str = "myCofingAbc";
+        System.out.println(str.replaceAll("[A-Z]", "_$0").toUpperCase());
 
+        new ArrayList<String>(){{add("123");add("233");}}.forEach(System.out::println);
 
-        System.out.println(MyUtil.getCurrentDateTimeString());
+        StringBuilder strLogFlag = new StringBuilder("hello");
+        strLogFlag.setCharAt(3,'X');
+        System.out.println(strLogFlag.toString());
 
-        System.out.println(MyUtil.getCurrentDateTimeStringByFormat("hh:mm:ss"));
+        List<String> strList = Arrays.asList("123", "456", "789");
+
+        System.out.println(StringUtils.join(strList, '-'));
     }
 }

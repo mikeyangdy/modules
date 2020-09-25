@@ -19,6 +19,7 @@
         <module>enum</module>
         <module>my-test</module>
         <module>TaskAsync</module>
+        <module>jdbc</module>
     </modules>
 
     <parent>
@@ -62,6 +63,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
+
     </dependencies>
 
 </project>

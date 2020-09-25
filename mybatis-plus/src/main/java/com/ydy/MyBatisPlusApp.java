@@ -1,10 +1,7 @@
 package com.ydy;
 
-import com.ydy.commons.entity.Bean.BeanA;
-import com.ydy.commons.entity.Bean.BeanB;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
-import org.springframework.beans.BeanUtils;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,14 +11,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyBatisPlusApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyBatisPlusApp.class,args);
+        SpringApplication.run(MyBatisPlusApp.class, args);
         System.out.println("ok");
 
-        BeanA a = new BeanA("1","2","3");
-        BeanB b = new BeanB();
-        BeanUtils.copyProperties(a,b);
 
-        System.out.println(b.toString());
+        MyBatisPlusApp.test();
+    }
+
+    private static void test() {
+//        UserInfo userInfo = new UserInfo();
+//        userInfo.setUsername("admin");
+//        userInfo.setComFlg("flg");
+//        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+//        WrapperUtil.equalWrapper(queryWrapper, userInfo);
+//        System.out.println(queryWrapper.getTargetSql());
     }
 
 }

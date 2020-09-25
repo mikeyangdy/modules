@@ -16,4 +16,6 @@ public class UserInfo {
     private String password;
 
     private String type;
+
+    private String comFlg;
 }
