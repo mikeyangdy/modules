@@ -20,6 +20,8 @@
         <module>my-test</module>
         <module>TaskAsync</module>
         <module>jdbc</module>
+        <module>easypoi</module>
+        <module>LeetCode</module>
     </modules>
 
     <parent>

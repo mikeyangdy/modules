@@ -21,5 +21,8 @@ public class TestMain {
         List<String> strList = Arrays.asList("123", "456", "789");
 
         System.out.println(StringUtils.join(strList, '-'));
+
+
+        System.out.println(TestMain.class.getResource("/").getPath());
     }
 }
