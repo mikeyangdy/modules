@@ -22,6 +22,8 @@
         <module>jdbc</module>
         <module>easypoi</module>
         <module>LeetCode</module>
+        <module>excel2Java</module>
+        <module>myWeb</module>
     </modules>
 
     <parent>

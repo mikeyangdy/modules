@@ -26,4 +26,22 @@ public class UserMapperTest extends BaseTest {
         wrapper.lambda().eq(UserInfo::getType,1);
         userInfoMapper.delete(wrapper);
     }
+
+
+    @Test
+    public void sql(){
+        QueryWrapper<UserInfo> qw = new QueryWrapper<>();
+
+        qw.eq("SUBSTRING(username,1,1)","1");
+    }
+
+
+    public static void main(String[] args) {
+        StringBuilder strFlag = new StringBuilder();
+        while (strFlag.length() < 32){
+            strFlag.append("0");
+        }
+        System.out.println(strFlag.toString());
+
+    }
 }

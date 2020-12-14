@@ -60,7 +60,7 @@ public class CodeGenerator {
 //        dataBaseParams.setPassword("root1234");
 
         dataBaseParams.setDbName("sms_marketdb");
-        dataBaseParams.setHost("10.128.108.179");
+        dataBaseParams.setHost("10.128.108.178");
         dataBaseParams.setPassword("123456");
 
 
